@@ -62,8 +62,10 @@ void safePosition();
 //sets the internal calibration array
 void setCalibration(int offsetArray[4][3]);
 
-//runs a Serial-interactive loop to adjust the calibration array. Sets the zero-point of each motor. Hips should
-//point at right-angles to the body, knees should point fully vertical, and ankles should be at right-angles 
+//runs a Serial-interactive loop to adjust the calibration array.
+// Sets the zero-point of each motor. Hips should
+//point at right-angles to the body, knees should point fully vertical,
+//and ankles should be at right-angles 
 //to the legs
 void calibrate();
 
