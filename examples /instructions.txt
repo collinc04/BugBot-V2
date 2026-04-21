@@ -1,0 +1,1 @@
+Run assembly.ino on your robot BEFORE screwing in the servo horns to make sure that the positions for the servos are correct
