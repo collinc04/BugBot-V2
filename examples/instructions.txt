@@ -1,0 +1,5 @@
+Load assembly.ino onto your robot BEFORE screwing in the servo horns, assembly.ino will set all angles of servos to 90 degrees so you can screw them in properly. 
+
+Use stand.ino to test that all of your servos have been installed correctly.
+
+Lastly, do not attempt to run code on the robot without plugging in the battery or attaching it to a power supply at 7v first (battery may need to be charged with use of a power supply)
