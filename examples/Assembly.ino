@@ -4,6 +4,9 @@ void setup() {
   //initialize robot
   QuadrupedRobot robot;
 
+  //calibrate
+  robot.calibrate();
+
   //Move servos into position to screw in horns over 5 seconds
   robot.moveHips(90, 1000);
   delay(1000);
