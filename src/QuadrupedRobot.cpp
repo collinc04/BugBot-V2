@@ -28,7 +28,7 @@ QuadrupedRobot::QuadrupedRobot() {
 
 QuadrupedRobot::QuadrupedRobot(int legLength, int baseLength, int clawLength, int stepSize) {
 
-    QuadrupedRobot::QuadrupedRobot();
+    : QuadrupedRobot();
     //Standardized in millimeters
     QuadrupedRobot::segmentLLength = legLength; //Leg
     QuadrupedRobot::segmentBLength = baseLength; //Base
